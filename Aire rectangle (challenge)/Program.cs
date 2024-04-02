@@ -3,9 +3,20 @@
     return L * l;
 }
 
+double AireHexagone(double a)
+{
+    return (3*Math.Sqrt(3)/2)*Math.Pow(a, 2);
+}
+
+
+/*
 Console.WriteLine("Saisissez votre  longueur");
 double L = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Saisissez votre  largeur");
 double l = Convert.ToDouble(Console.ReadLine());
+*/
 
-Console.WriteLine($"L'aire du rectangle est : {AireRectangle(L, l)}");    
+double a;
+Console.WriteLine("Saisissez la longuer des côtés de l'hexagone");
+a = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine($"L'aire de l'hexagone est : {AireHexagone(a)}");    
