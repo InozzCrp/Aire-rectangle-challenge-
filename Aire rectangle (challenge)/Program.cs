@@ -3,9 +3,9 @@
     return L * l;
 }
 
-double AireHexagone(double a)
+double AireHexagone(double a) //Renvoie l'aire d'un hexagone de longueur a
 {
-    return (3*Math.Sqrt(3)/2)*Math.Pow(a, 2);
+    return (3*Math.Sqrt(3)/2)*Math.Pow(a, 2); //Aire du rectangle
 }
 
 
