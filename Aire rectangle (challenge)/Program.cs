@@ -9,12 +9,12 @@ double AireHexagone(double a) //Renvoie l'aire d'un hexagone de longueur a
 }
 
 
-/*
+
 Console.WriteLine("Saisissez votre  longueur");
 double L = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Saisissez votre  largeur");
 double l = Convert.ToDouble(Console.ReadLine());
-*/
+
 
 double a;
 Console.WriteLine("Saisissez la longuer des côtés de l'hexagone");
