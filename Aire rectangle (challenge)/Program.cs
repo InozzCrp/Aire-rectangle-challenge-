@@ -8,9 +8,9 @@ double AireHexagone(double a) //Renvoie l'aire d'un hexagone de longueur a
     return (3*Math.Sqrt(3)/2)*Math.Pow(a, 2); //Aire du rectangle
 }
 
-double AireCercle(double r)
+double AireCercle(double r) //Renvoie l'aire d'un cercle de rayon r
 {
-    return (Math.PI * Math.Pow(r, 2));
+    return (Math.PI * Math.Pow(r, 2)); //Aire d'un cercle
 }
 
 
