@@ -1,6 +1,6 @@
-﻿double AireRectangle(double L, double l)
+﻿double AireRectangle(double L, double l) //Renvoie l'aire d'un rectangle de longueur L et de largeur l
 {
-    return L * l;
+    return L * l; //Aire du rectangke
 }
 
 Console.WriteLine("Saisissez votre  longueur");
